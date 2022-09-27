@@ -1,0 +1,80 @@
+/* @font-face {
+  font-family: 'SuisseBPIntlRegular';
+  src: url("fonts/SuisseBPIntlRegular.ttf") format("truetype"),;
+} */
+
+@font-face {
+  font-family: "SuisseBPIntlRegular";
+  src: url("fonts/SuisseBPIntlRegular.eot");
+  src: url("fonts/SuisseBPIntlRegular.eot") format("embedded-opentype"),
+    url("fonts/SuisseBPIntlRegular.woff2") format("woff2"),
+    url("fonts/SuisseBPIntlRegular.woff") format("woff"),
+    url("fonts/SuisseBPIntlRegular.ttf") format("truetype"),
+    url("fonts/SuisseBPIntlRegular.svg#SuisseBPIntlRegular") format("svg");
+}
+
+@font-face {
+  font-family: "SuisseBPIntlMedium";
+  src: url("fonts/SuisseBPIntlMedium.eot");
+  src: url("fonts/SuisseBPIntlMedium.eot") format("embedded-opentype"),
+    url("fonts/SuisseBPIntlMedium.woff2") format("woff2"),
+    url("fonts/SuisseBPIntlMedium.woff") format("woff"),
+    url("fonts/SuisseBPIntlMedium.ttf") format("truetype"),
+    url("fonts/SuisseBPIntlMedium.svg#SuisseBPIntlMedium") format("svg");
+}
+
+@font-face {
+  font-family: "SuisseBPIntlBold";
+  src: url("fonts/SuisseBPIntlBold.eot");
+  src: url("fonts/SuisseBPIntlBold.eot") format("embedded-opentype"),
+    url("fonts/SuisseBPIntlBold.woff2") format("woff2"),
+    url("fonts/SuisseBPIntlBold.woff") format("woff"),
+    url("fonts/SuisseBPIntlBold.ttf") format("truetype"),
+    url("fonts/SuisseBPIntlBold.svg#SuisseBPIntlBold") format("svg");
+}
+
+
+
+.font-semibold,
+.font-medium {
+  font-family: "SuisseBPIntlMedium";
+  font-weight: normal !important;
+}
+
+.font-bold,
+.font-extrabold {
+  font-family: "SuisseBPIntlBold"!important;
+  font-weight: bold !important;
+}
+
+* {
+  font-family: "SuisseBPIntlRegular";
+ font-display: initial;
+
+}
+
+#wrapper #sidebar li.active .active button {
+  font-family: "SuisseBPIntlBold" !important;
+  font-weight: bold !important;
+}
+
+#wrapper #Dashboard #mainDiv #rightSec #FAQS .accordion-button:focus {
+  font-family: "SuisseBPIntlBold";
+  font-weight: normal !important;
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: #fff;
+
+}
+
+code {
+  /* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+}
